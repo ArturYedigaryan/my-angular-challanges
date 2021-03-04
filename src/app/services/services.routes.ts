@@ -1,0 +1,7 @@
+import {Routes} from '@angular/router';
+import {ServiceDocumentationComponent} from './components/service-documentation/service-documentation.component';
+
+export const SERVICES_ROUTES: Routes = [
+  {path: '', component: ServiceDocumentationComponent},
+  {path: ':id', component: ServiceDocumentationComponent}
+];

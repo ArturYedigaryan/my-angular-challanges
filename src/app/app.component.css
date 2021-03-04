@@ -1,0 +1,7 @@
+main{
+  margin: 50px;
+}
+
+.active{
+  border-bottom: 2px solid white;
+}
